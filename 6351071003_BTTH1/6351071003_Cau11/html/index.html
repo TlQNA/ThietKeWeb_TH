@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chương trình Frameset</title>
+    <style>
+        frameset {
+            border: 3px solid #000;
+        }
+    </style>
+</head>
+<frameset rows="15%,*" frameborder="0">
+    <!-- Khung tiêu đề -->
+    <frame src="Tieude.html" noresize>
+    
+    <!-- Khung nội dung -->
+    <frameset rows="*" cols="31%,*">
+        <!-- Khung thực đơn -->
+        <frame src="Thucdon.html" noresize>
+        
+        <!-- Khung chứa trang liên kết -->
+        <frame src="Bai1.1.html" name="showframe" noresize>
+    </frameset>
+</frameset>
+</html>

@@ -1,0 +1,15 @@
+table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aqua;
+}
+
+th, td {
+    border: 2px solid brown;
+    text-align: left;
+}
+
+#center {
+    text-align: center;
+}

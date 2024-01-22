@@ -1,0 +1,30 @@
+* {
+    font-family: tahoma;
+    font-size: 12px;
+}
+h1 {
+    text-align: center;
+    color: #CC0033;
+}
+
+.center {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Đường viền cho các ô */
+th, td {
+    border: 1px solid orange;
+    text-align: left;
+}
+
+#red {
+    font-weight: bold;
+    color: white;
+    background-color: #CC0033;
+}

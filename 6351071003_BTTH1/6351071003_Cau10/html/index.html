@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tạo form và các điều khiển</title>
+    <link rel="stylesheet" href="../style/style.css">
+</head>
+<body>
+    <h1 id="center">Đăng ký du lịch</h1>
+    <form>
+        <table>
+            <tr>
+                <td>Họ và tên</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Địa chỉ</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Điện thoại</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Khách Việt Nam</td>
+                <td><input type="checkbox"></td>
+            </tr>
+            <tr>
+                <td>Chọn tour</td>
+                <td>
+                    <select>
+                        <option>Buôn mê thuột - Gia lai - Kontum </option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Phương tiện</td>
+                <td>
+                    <input type="radio" value="Bay" name="phuongTien">
+                    <label for="Bay">Máy bay</label>
+                    <input type="radio" value="Oto" name="phuongTien">
+                    <label for="Oto">Xe ô tô</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <fieldset>
+                        <legend id="ba">Số lượng đoàn khách</legend>
+                        <label for="adult" id="ab">Người lớn</label>
+                        <input type="number" value="adult" id="ab">
+                        <label for="young" id="ab">Trẻ em</label>
+                        <input type="number" value="young" id="ab">
+                    </fieldset>
+                </td>
+            </tr>
+            <tr>
+                <td>Ghi chú thêm</td>
+                <td><textarea style="width: 300px;"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2" id="center">
+                    <input type="button" value="Đồng ý" >
+                </td>
+            </tr>
+        </table>
+    </form>
+    <p>6351071003-Nguyễn Quốc Anh</p>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../style/style.css">
+    <script src="../javascript/main.js"></script>
+</head>
+<body>
+        
+    <table>
+        <tr>
+            <th>Số lượng</th>
+            <th>Đơn giá</th>
+            <th>Tổng</th>
+            <th>Chức năng</th>
+        </tr>
+
+        <tr>
+            <td>
+                <input type="text" name="quantity1" class="quantity" oninput="updateTotal(this)">
+            </td>
+
+            <td>
+                <input type="text" name="unitPrice1" class="unitPrice" oninput="updateTotal(this)">
+            </td>
+
+            <td>
+                <p id="result1"></p>
+            </td>
+
+            <td style="text-align: center;">
+                <button type="button" id="delete1" onclick="deleteRow(this)">Xóa</button>
+            </td>
+        </tr>
+        
+        <tr>
+            <td>
+                <input type="text" name="quantity2" class="quantity" oninput="updateTotal(this)">
+            </td>
+
+            <td>
+                <input type="text" name="unitPrice2" class="unitPrice" oninput="updateTotal(this)">
+            </td>
+
+            <td>
+                <p id="result2"></p>
+            </td>
+
+            <td style="text-align: center;">
+                <button type="button" id="delete2" onclick="deleteRow(this)">Xóa</button>
+            </td>
+        </tr>
+    </table>
+
+    <p>6351071003 - Nguyễn Quốc</p>
+</body>
+</html>

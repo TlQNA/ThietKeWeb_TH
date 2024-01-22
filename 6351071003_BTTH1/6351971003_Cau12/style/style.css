@@ -1,0 +1,49 @@
+body {
+    text-align: center;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu {
+    background-color: orange
+  }
+  
+  .menu ul {
+    margin: 0;
+  }
+  
+  .menu ul li {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .menu ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+  }
+
+  
+.menu ul li:hover > ul {
+    position: absolute;
+    display: block;
+    width: 200px;
+    margin-top: 38px;
+    
+}
+
+.menu a:hover{
+    color: black;
+}
+
+  
+  .menu ul ul {
+    padding: 0px;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 90%;
+    background-color: orange;
+  }

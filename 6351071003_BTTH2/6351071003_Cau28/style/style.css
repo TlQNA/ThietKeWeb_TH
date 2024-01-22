@@ -1,0 +1,37 @@
+:root{
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+}
+
+*{
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    /* 100%: 1rem = 16px */
+    /* 62.5%: 1rem = 10px */
+    font-size: 62.5%;
+    line-height: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+table, th, td{
+    border: 1px solid #333;
+    border-collapse: collapse;
+    background-color: rgb(213, 250, 158);
+    margin: 0 auto;
+    width: 800px;
+    font-size: 2rem;
+}
+
+button{
+    border-radius: 30px;
+    font-size: 2rem;
+    width: 100px;
+    cursor: pointer;
+}

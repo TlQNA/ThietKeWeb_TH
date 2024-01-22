@@ -1,0 +1,35 @@
+table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+}
+tr ,td {
+    border: 1px solid blue;
+    color: blue;
+    background-color: rgb(241, 233, 159) 
+}
+fieldset {
+    border: 2px solid brown;
+    width: 350px;
+    height: 55px;
+    text-align: center;
+    margin: auto;
+}
+legend {
+    font-style: italic;
+    color: brown;
+}
+
+#center {
+    text-align: center;
+    color: blue;
+}
+
+#ab {
+    width: 55px;
+}
+
+#ba {
+    text-align: left;
+}
